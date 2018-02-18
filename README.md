@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
+## Procedimentos 
+
+ng new shopping
+
+npm install ajv
+
+npm install --save bootstrap@3
+
+adicionei configuração para utilizar bootstrap.css.
+  arquivo .angular-cli.json
+  
+Criando components:
+  ng g c recipes/recipe-list --spec false
+  ng g c recipes/recipe-detail --spec false
+  ng g c recipes/recipe-list/recipe-item --spec false
+
+  ng g c shopping-list --spec false
+  ng g c shopping-list/shopping-edit --spec false
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
